@@ -1,0 +1,32 @@
+{
+    "env":{
+            
+        "AUTH0_CLIENT_ID":"@auth-client-id",
+        "AUTH0_CLIENT_SECRET":"@auth-client-secret",
+        "AUTH0_SCOPE":"openid profile",
+        "AUTH0_DOMAIN":"devjrcom.auth0.com",
+        "AUTH0_REDIRECT_URI":"https://mydailystatus.wjunior13.now.sh/api/callback",
+        "AUTH0_LOGOUT_REDIRECT":"https://mydailystatus.wjunior13.now.sh",
+       "AUTH0_SESSION_COOKIE_SECRET":"adkjadcnsnsaklsakjdskjdklsefsada",
+        "AUTH0_SESSION_COKKIE_LIFETIME":"3600"
+        
+       
+       
+    },
+    "build":{
+        "env":{
+            
+            "AUTH0_CLIENT_ID":"@auth-client-id",
+            "AUTH0_CLIENT_SECRET":"@auth-client-secret",
+            "AUTH0_SCOPE":"openid profile",
+            "AUTH0_DOMAIN":"devjrcom.auth0.com",
+            "AUTH0_REDIRECT_URI":"https://mydailystatus.wjunior13.now.sh/api/callback",
+           "AUTH0_LOGOUT_REDIRECT":"https://mydailystatus.wjunior13.now.sh",
+            "AUTH0_SESSION_COOKIE_SECRET":"adkjadcnsnsaklsakjdskjdklsefsada",
+            "AUTH0_SESSION_COKKIE_LIFETIME":"3600"
+            
+           
+           
+        }
+    }
+}
